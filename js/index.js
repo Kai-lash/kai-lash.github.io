@@ -14,6 +14,10 @@ $(function() {
     $('#project_als').load('projects/als.html');
     $('#project_dap').load('projects/dap.html');
     $('#project_osc').load('projects/osc.html');
+    $('#work_bipl').load('work/bipl.html');
+    $('#work_techm').load('work/techm.html');
+    $('#work_dst').load('work/dst.html');
+    $('#work_uor').load('work/uor.html');
     $('#intro').particleground();
     $('body').on('click', '.page-scroll a', function(event) {
         var $anchor = $(this);
