@@ -17,7 +17,7 @@ $(function() {
     $('#work_bipl').load('work/bipl.html');
     $('#work_techm').load('work/techm.html');
     $('#work_dst').load('work/dst.html');
-    $('#work_uor').load('work/uor.html');
+    $('#education_uor').load('education/uor.html');
     $('#intro').particleground();
     $('body').on('click', '.page-scroll a', function(event) {
         var $anchor = $(this);
