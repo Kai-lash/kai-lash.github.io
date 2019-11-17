@@ -6,6 +6,10 @@
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
+    $('#work_payx').load('work/payx.html');
+    $('#work_dst').load('work/dst.html');
+    $('#work_techm').load('work/techm.html');
+    $('#work_bipl').load('work/bipl.html');
     $('#project_jif').load('projects/jif.html');
     $('#project_call').load('projects/call.html');
     $('#project_cam').load('projects/cam.html');
@@ -14,9 +18,6 @@ $(function() {
     $('#project_als').load('projects/als.html');
     $('#project_dap').load('projects/dap.html');
     $('#project_osc').load('projects/osc.html');
-    $('#work_bipl').load('work/bipl.html');
-    $('#work_techm').load('work/techm.html');
-    $('#work_dst').load('work/dst.html');
     $('#education_uor').load('education/uor.html');
     $('#education_svit').load('education/svit.html');
     $('#intro').particleground();
