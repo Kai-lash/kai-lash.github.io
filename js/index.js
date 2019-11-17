@@ -18,6 +18,7 @@ $(function() {
     $('#work_techm').load('work/techm.html');
     $('#work_dst').load('work/dst.html');
     $('#education_uor').load('education/uor.html');
+    $('#education_svit').load('education/svit.html');
     $('#intro').particleground();
     $('body').on('click', '.page-scroll a', function(event) {
         var $anchor = $(this);
