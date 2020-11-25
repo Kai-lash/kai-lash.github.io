@@ -378,6 +378,30 @@ footer .footer-below {
     outline: 0;
 }
 
+.cert-section {
+    display: flex; 
+    max-height: 100%; 
+    max-width: 150px; 
+    margin-top: 10px;
+}
+
+.cert-image {
+    margin: 10px;
+}
+
+@media(max-width:767px) {
+    .cert-section {
+        display: flex; 
+        max-height: 100%; 
+        max-width: 105px; 
+        margin-top: 10px;
+    }
+
+    .cert-image {
+        margin: 5px;
+    }
+}
+
 .scroll-top {
     z-index: 1049;
     position: fixed;
