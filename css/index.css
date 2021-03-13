@@ -378,6 +378,11 @@ footer .footer-below {
     outline: 0;
 }
 
+.profic-pic-img {
+    border-radius: 75% / 75%;
+    border: 5px solid #fff;
+}
+
 .cert-section {
     display: inline-block; 
     max-height: 100%; 
