@@ -379,10 +379,15 @@ footer .footer-below {
 }
 
 .cert-section {
-    display: flex; 
+    display: inline-block; 
     max-height: 100%; 
     max-width: 120px; 
-    margin: 10px 0 0 75px;
+    margin: 10px 0 0 -275px;
+    align-items: center;
+}
+
+.cert-section-row {
+    display: flex;
     align-items: center;
 }
 
@@ -393,7 +398,7 @@ footer .footer-below {
 @media(max-width:767px) {
     .cert-section {
         max-width: 65px; 
-        margin: 10px 0 0 5px;
+        margin: 10px 0 0 -150px;
     }
 
     .cert-image {
