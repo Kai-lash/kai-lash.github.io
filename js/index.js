@@ -7,7 +7,7 @@
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
     $('#work_payx').load('work/payx.html');
-    $('#work_dst').load('work/dst.html');
+    $('#work_msft').load('work/msft.html');
     $('#work_techm').load('work/techm.html');
     $('#work_bipl').load('work/bipl.html');
     $('#project_jif').load('projects/jif.html');
